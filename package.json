@@ -1,0 +1,32 @@
+{
+  "name": "whoiam91",
+  "description": "whoiam contact information",
+  "version": "1.0.0",
+  "author": "whoiam <r4343shai@gnail.com> ",
+  "bin": "./cli.js",
+  "bugs": {
+    "url": "https://github.com/N17R0-HACKERS/whoiam1/issues"
+  },
+  "dependencies": {
+    "cowsay": "^1.2.1",
+    "lodash.omit": "^4.5.0",
+    "minimist": "^1.2.0",
+    "prettyjson": "^1.2.1"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/N17R0-HACKERS/whoiam91#readme",
+  "keywords": [
+    "whoiam",
+    "contact",
+    "information"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N17R0-HACKERS/whoiam91.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
