@@ -1,32 +1,37 @@
 {
-  "name": "whoiam91",
-  "description": "whoiam contact information",
-  "version": "1.0.0",
-  "author": "whoiam <r4343shai@gnail.com> ",
-  "bin": "./cli.js",
-  "bugs": {
-    "url": "https://github.com/N17R0-HACKERS/whoiam1/issues"
+  "name": "whoiam93",
+  "version": "2.1.0",
+  "description": "A personal card for whoiam (@whoiam91)",
+  "main": "card.js",
+  "bin": {
+    "whoiam93": "./card.js"
   },
-  "dependencies": {
-    "cowsay": "^1.2.1",
-    "lodash.omit": "^4.5.0",
-    "minimist": "^1.2.0",
-    "prettyjson": "^1.2.1"
-  },
-  "devDependencies": {},
-  "homepage": "https://github.com/N17R0-HACKERS/whoiam91#readme",
-  "keywords": [
-    "whoiam",
-    "contact",
-    "information"
-  ],
-  "license": "MIT",
-  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/N17R0-HACKERS/whoiam91.git"
+    "url": "git+https://github.com/N17R0-HQCKERS/whoiam93.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+    "test": "node card.js",
+    "pub": "npm version major & npm publish"
+  },
+  "dependencies": {
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "cli-spinners": "^2.5.0",
+    "inquirer": "^7.3.2",
+    "open": "^7.0.4",
+    "ora": "^5.1.0",
+    "request": "^2.88.2"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "author": "whoiam <r4343shai@gnail.com>)",
+  "license": "ISC"
 }
