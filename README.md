@@ -10,6 +10,7 @@ https://user-images.githubusercontent.com/72617624/149320361-51981a98-d102-4e84-
 
 ## INSTALLATION [Termux] :
 * `pkg install nodejs -y `
+* `npm i`
 * `npx whoiam93 `
 
 
